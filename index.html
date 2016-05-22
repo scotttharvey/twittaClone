@@ -11,15 +11,15 @@
 			<div id="dashboard">
 				<div id="profile-summary">
 					<div class="content">
-						<img class='avatar' src='img/alagoon.jpg' />
-						<p>Your Name Here</p>
+						<img class='avatar' src='http://screenrant.com/wp-content/uploads/Game-of-Thrones-Finale-Jon-Snow-Dead-Killed.jpg' />
+						<p>John Snow</p>
 					</div>
 				</div>
 				<div id="tweet-content">
 
 					<!-- STEP 2: When the user clicks on the textarea, the textarea should double in size and the character count and Tweet buttons should be revealed. -->
 					<!-- HINT: jQuery ".on" eventHandler -->
-					<textarea class="tweet-compose" placeholder="Compose new Tweet..."/></textarea>
+					<textarea class="tweet-compose" id="tweet-compose-left" placeholder="Compose new Tweet..."/></textarea>
 
 					<!-- STEP 1: Initially, the Tweet button and the character count button below should be hidden. -->
 					<!-- HINT: Use CSS -->
@@ -96,7 +96,9 @@
 						</div>
 					</div><!-- .tweet -->
 
-					<div class="tweet">
+
+<!-- ////////////////////////// -->
+					<div class="tweet" id="monkey">
 						<div class="content">
 							<img class="avatar" src="img/funwatercat.jpg" />
 							<strong class="fullname">The Onion</strong>
@@ -178,5 +180,9 @@
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="animations.js">
+
+		</script>
 	</body>
 </html>
